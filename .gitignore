@@ -1,0 +1,5 @@
+advance/Drawing1/Databases
+*.bak
+*.upd
+*.mdf
+*.ldf
