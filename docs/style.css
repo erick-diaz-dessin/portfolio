@@ -1,6 +1,6 @@
-* {
+/* * {
     border: solid 1px white;
-}
+} */
 
 body {
     font-family: Arial, sans-serif;
@@ -140,6 +140,11 @@ footer p {
         width: 100%;
         margin: 0px;
         margin-bottom: 20px;
+    }
+
+    .header img {
+        height: 60px;
+        margin: 0px 10px;
     }
 }
 
