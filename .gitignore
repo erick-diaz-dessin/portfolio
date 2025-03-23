@@ -1,5 +1,6 @@
 advance/project_1/Drawing1/Databases
 advance/project_2/Drawing1straight_stairs
+*.bak
 *.upd
 *.mdf
 *.ldf
