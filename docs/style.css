@@ -49,7 +49,7 @@ p {
 .description {
     display: flex;
     justify-content: center;
-    height: 300px;
+    height: 400px;
 }
 
 .model-image-container {
@@ -87,7 +87,7 @@ p {
 
 table {
     margin: 20px;
-    width: 600px;
+    width: 500px;
 }
 
 footer div {
@@ -104,6 +104,27 @@ footer p {
 
 .hidden {
     display: none;
+}
+
+button {
+    background-color: #186bff;
+    border: none;
+    color: #FFFFFF;
+    padding: 3px;
+}
+
+.division {
+    width: 90%;
+    margin: auto;
+    border-top: solid 1px;
+}
+
+.bom-list {
+    width: 800px;
+}
+
+.table-sapce {
+    height: 20px;
 }
 
 /* Media Queries para Responsividad */
