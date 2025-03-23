@@ -161,7 +161,7 @@ button {
         /* justify-content: space-around; */
     }
 
-    table {
+    table, .bom-list {
         width: 100%;
         margin: 0px;
         margin-bottom: 20px;
@@ -170,6 +170,15 @@ button {
     .header img {
         height: 100px;
         margin: 0px 10px;
+    }
+
+    tr[data-group="stairs"] td:first-child, /* Oculta la primera columna */
+    tr[data-group="stairs"] td:last-child, /* Oculta la última columna */
+    tr[data-group="cage"] td:first-child, 
+    tr[data-group="cage"] td:last-child, 
+    tr[data-group="platform"] td:first-child, 
+    tr[data-group="platform"] td:last-child {  
+        display: none;
     }
 }
 
