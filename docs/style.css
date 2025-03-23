@@ -42,7 +42,7 @@ p {
     width: 100%;
 }
 
-.project1 {
+.project {
     margin: 30px;
 }
 
@@ -87,7 +87,7 @@ p {
 
 table {
     margin: 20px;
-    width: 400px;
+    width: 600px;
 }
 
 footer div {
@@ -100,6 +100,10 @@ footer div {
 footer p {
     width: 100%;
     text-align: center;
+}
+
+.hidden {
+    display: none;
 }
 
 /* Media Queries para Responsividad */
